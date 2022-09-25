@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Nasa", "Nasa\Nasa.csproj", "{37D3BEBB-C111-4836-8B0F-274B11D78F03}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Nasa.UnitTests", "Nasa.UnitTests\Nasa.UnitTests.csproj", "{8AADF3A5-F19B-4357-8425-30ABBE436FD2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{37D3BEBB-C111-4836-8B0F-274B11D78F03}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{37D3BEBB-C111-4836-8B0F-274B11D78F03}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{37D3BEBB-C111-4836-8B0F-274B11D78F03}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{37D3BEBB-C111-4836-8B0F-274B11D78F03}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8AADF3A5-F19B-4357-8425-30ABBE436FD2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8AADF3A5-F19B-4357-8425-30ABBE436FD2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8AADF3A5-F19B-4357-8425-30ABBE436FD2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8AADF3A5-F19B-4357-8425-30ABBE436FD2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
