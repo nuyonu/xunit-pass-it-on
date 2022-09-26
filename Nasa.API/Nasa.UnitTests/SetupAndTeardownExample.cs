@@ -9,6 +9,7 @@ public class SetupAndTeardownExample : IDisposable, IAsyncLifetime
 {
     private readonly ITestOutputHelper testOutputHelper;
 
+    // Ctor as SetUp
     public SetupAndTeardownExample(ITestOutputHelper testOutputHelper)
     {
         this.testOutputHelper = testOutputHelper;
@@ -27,16 +28,19 @@ public class SetupAndTeardownExample : IDisposable, IAsyncLifetime
         testOutputHelper.WriteLine("Test 2.");
     }
     
+    // TearDown
     public void Dispose()
     {
         testOutputHelper.WriteLine("Dispose.");
     }
     
+    // SetUp async
     public async Task InitializeAsync()
     {
         testOutputHelper.WriteLine("InitializeAsync.");
     }
 
+    // TearDown async
     async Task IAsyncLifetime.DisposeAsync()
     {
         testOutputHelper.WriteLine("DisposeAsync");

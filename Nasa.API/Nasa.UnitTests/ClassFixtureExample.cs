@@ -8,11 +8,13 @@ public sealed class ClassFixtureExample : IDisposable
 {
     public Guid? SomeConnectionToDatabase { get; set; }
     
+    // SetUp For All tests from a class
     public ClassFixtureExample()
     {
         SomeConnectionToDatabase = Guid.NewGuid();
     }
 
+    // TearDown from all tests from a class
     public void Dispose()
     {
         SomeConnectionToDatabase = null;

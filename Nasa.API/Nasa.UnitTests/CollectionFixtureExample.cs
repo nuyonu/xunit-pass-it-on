@@ -8,11 +8,13 @@ public class DatabaseFixtureExample : IDisposable
 {
     public Guid? SomeConnectionToDatabase { get; set; }
     
+    // SetUp
     public DatabaseFixtureExample()
     {
         SomeConnectionToDatabase = Guid.NewGuid();
     }
 
+    // TearDown
     public void Dispose()
     {
         SomeConnectionToDatabase = null;
